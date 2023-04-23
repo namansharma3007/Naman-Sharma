@@ -131,17 +131,19 @@ textarea {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 10px;
-	border-radius: 50%;
+	padding: 5px;
+	border-radius: 0 0 20px 30px;
+	width: 3.5rem;
+	height: 2.5rem;
 	position: absolute;
-	right: 1rem;
-	top: 135px;
+	right: -5px;
+	top: 150px;
 	transition: 400ms ease;
 	cursor: pointer;
 }
 
 .expand-button.active {
-	top: 436px;
+	top: 449px;
 }
 
 .material-symbols-outlined{
