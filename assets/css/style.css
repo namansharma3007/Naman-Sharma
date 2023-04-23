@@ -136,13 +136,17 @@ textarea {
 	border-radius: 50%;
 	position: absolute;
 	right: 1rem;
-	top: 136px;
+	top: 135px;
 	transition: 400ms ease;
 	cursor: pointer;
 }
 
 .expand-button.active {
-	top: 435px;
+	top: 436px;
+}
+
+.material-symbols-outlined{
+	color: white;
 }
 
 .about-me {
