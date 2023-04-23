@@ -52,6 +52,18 @@ form.addEventListener("submit", function (event) {
         alert("Please enter a valid email address.");
         return;
     }
+    if(name == ""){
+        alert("Enter full name")
+        return;
+    }
+    if(email == ""){
+        alert("Enter email")
+        return;
+    }
+    if(message == ""){
+        alert("Write some message")
+        return;
+    }
 
     var params = {
         from_name: name,

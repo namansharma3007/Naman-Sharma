@@ -37,6 +37,7 @@ html {
 	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
+	text-align: center;
 }
 
 .image-contact {
@@ -203,21 +204,14 @@ i {
 	z-index: 1;
 
 }
-.tabs-container-upper{
-	width: 100%;
-}
-.tabs-container-upper > h4{
-	text-align: center;
-}
 
 
 
 .tabs-container {
 	/* position: fixed; */
-	top: 50%;
 	left: 0;
 	transform: translateY(-50%);
-	animation: tabs-scroll 20s linear infinite;
+	animation: tabs-scroll 15s linear infinite;
 	width: max-content;
 	margin: 10px 0;
 }
@@ -237,11 +231,11 @@ i {
 
 @keyframes tabs-scroll {
 	0% {
-		transform: translateX(-100%);
+		transform: translateX(-104%);
 	}
 
 	100% {
-		transform: translateX(calc(100vw - 100%));
+		transform: translateX(100%);
 	}
 }
 
@@ -339,4 +333,5 @@ i {
 	.box{
 		scale: 1.3;
 	}
+	
 }
