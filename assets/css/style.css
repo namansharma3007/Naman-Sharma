@@ -65,6 +65,12 @@ html {
 	height: 120px;
 	width: 120px;
 	border-radius: 50%;
+	transition: 400ms ease;
+	cursor: pointer;
+}
+
+.me-image:hover{
+	scale: 1.04;
 }
 
 .form-contact {
