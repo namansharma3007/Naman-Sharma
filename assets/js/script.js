@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
     hireMe.addEventListener('click', expandFunction)
 });
 
-const skills = ['Leaflet.js', 'Email.js', 'Python', 'Java', 'BootStrap', 'GitHub', 'Git', 'SQL', 'MongoDB', 'React.js', 'Node.js', 'JavaScript', 'CSS', 'HTML']
+const skills = ['Leaflet.js', 'Email.js', 'Express.js', 'Python', 'Java', 'BootStrap', 'GitHub', 'Git', 'SQL', 'MongoDB', 'React.js', 'Node.js', 'JavaScript', 'CSS', 'HTML']
 
 var tabCont = document.querySelector('.tabs-container');
 
@@ -39,7 +39,7 @@ tabCont.innerHTML = displaytabs
 
 
 const form = document.getElementById("myForm");
-const emailRegex = /\S+@\S+\.\S+/; 
+const emailRegex = /\S+@\S+\.\S+/;
 
 form.addEventListener("submit", function (event) {
     event.preventDefault(); // prevent the form from submitting
@@ -52,15 +52,15 @@ form.addEventListener("submit", function (event) {
         alert("Please enter a valid email address.");
         return;
     }
-    if(name == ""){
+    if (name == "") {
         alert("Enter full name")
         return;
     }
-    if(email == ""){
+    if (email == "") {
         alert("Enter email")
         return;
     }
-    if(message == ""){
+    if (message == "") {
         alert("Write some message")
         return;
     }
