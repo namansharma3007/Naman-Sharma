@@ -220,6 +220,15 @@ i {
 	margin: 10px 0;
 }
 
+@keyframes tabs-scroll {
+	0% {
+		transform: translateX(-104%);
+	}
+
+	100% {
+		transform: translateX(100%);
+	}
+}
 .tab {
 	border: none;
 	display: inline-block;
@@ -233,15 +242,6 @@ i {
 
 
 
-@keyframes tabs-scroll {
-	0% {
-		transform: translateX(-104%);
-	}
-
-	100% {
-		transform: translateX(100%);
-	}
-}
 
 .hire-me-div {
 	width: 100%;
